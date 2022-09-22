@@ -4,11 +4,13 @@ public class Eleventh2 {
         int b;
         int c=5;
         for(a=0;a<c;a++){
-            System.out.println(" ");
+            for(b=c-a;b>1;b--){
+                System.out.print(" ");
+            }
+            for(b=0;b<=a;b++){
+                System.out.print("* ");
+            }
+            System.out.println();
         }
-        for(b=0;b<=a;b++){
-            System.out.println("* ");
-        }
-
     }
 }

@@ -4,8 +4,9 @@ public class Eleventh1 {
         int b;
         for(a=1;a<=5;a++){
             for(b=1;b<=a;b++){
-                System.out.println(""+b);
+                System.out.print(""+b);
             }
+            System.out.print("\n");
         }
     }
 }
